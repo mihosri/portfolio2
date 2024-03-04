@@ -29,24 +29,29 @@ export default function Header() {
 
       {/* Mobile view menu */}
 
-      {toggleMenu && <nav className="block md:hidden mobile-nav">
-        <ul className="flex flex-col">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Projects</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>}
-      
-      <button className="block md:hidden" onClick={()=> setToggleMenu(!toggleMenu)}>
+      {toggleMenu && (
+        <nav className="block md:hidden ">
+          <ul className="flex flex-col mobile-nav">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Projects</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      )}
+
+      <button
+        className="block md:hidden"
+        onClick={() => setToggleMenu(!toggleMenu)}
+      >
         <Bars3Icon className="text-white h-5" />
       </button>
     </header>
