@@ -1,11 +1,11 @@
-import AboutImg from '../assets/aboutImg.jpg'
+import AboutImg from '../assets/aboutpic.png'
 export default function About() {
   return (
-    <section className='flex'>
-      <div>
+    <section className="flex bgcolor">
+      <div className="w-1/2">
         <img src={AboutImg} />
       </div>
-      <div>
+      <div className="w-1/2">
         <h1>About Me</h1>
         <p>
           Hello I am a passionate Front End Engineer who is skilled in HTML,
