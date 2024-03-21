@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
-    extend: {},
+    extend: {
+      borderColor: {
+        primary: 'rgb(85, 81, 227)',
+      },
+    },
     fontFamily: {
       'sri-font': 'Sriracha',
     },
