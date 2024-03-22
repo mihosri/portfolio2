@@ -11,7 +11,7 @@ export default function About() {
             About Me
           </h1>
           <p className="text-white">
-            Hello I am a passionate Front End Engineer who is skilled in HTML,
+            Hello I am a passionate Front End Engineer, I build functionally appealing websites. I am proficient in HTML,
             CSS, JavaScript, TypeScript and React.
           </p>
         </div>
