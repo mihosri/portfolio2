@@ -12,7 +12,7 @@ export default function About() {
           </h1>
           <p className="text-white">
             Hello I am a passionate Front End Engineer, I build functionally appealing websites. I am proficient in HTML,
-            CSS, JavaScript, TypeScript and React.
+            CSS, JavaScript, TypeScript React.
           </p>
         </div>
       </div>
